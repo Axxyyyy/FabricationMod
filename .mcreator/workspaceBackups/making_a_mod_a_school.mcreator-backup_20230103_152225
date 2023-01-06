@@ -1,0 +1,58 @@
+{
+  "mod_elements": [
+    {
+      "name": "EmeraldSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword"
+    },
+    {
+      "name": "EmeraldSwordRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword_recipe"
+    },
+    {
+      "name": "EnchantedEmeraldSword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_emerald_sword"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.making_a_mod_a_school.emerald_sword": "Emerald Sword",
+      "item.making_a_mod_a_school.enchanted_emerald_sword": "Enchanted Emerald Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "making_a_mod_a_school",
+    "modName": "making a mod a school",
+    "version": "1.0.0",
+    "author": "JaStoddard, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.makingamodaschool",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
