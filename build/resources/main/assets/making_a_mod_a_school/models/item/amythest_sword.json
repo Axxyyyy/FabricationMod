@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "making_a_mod_a_school:items/amythest_sword"
+  }
+}

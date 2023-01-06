@@ -1,4 +1,4 @@
-Java Launcher: /private/var/folders/n6/ps7fkq0s6mv43l635km0p9dw0000hd/T/AppTranslocation/A7A87D8D-F38D-4A82-8F0A-B1D008637476/d/MCreator.app/Contents/MacOS/jdk/Contents/Home/bin/java
+Java Launcher: /Users/JaStoddard/Desktop/MCreator.app/Contents/MacOS/jdk/Contents/Home/bin/java
 Arguments: '--in-jar, /Users/JaStoddard/MCreatorWorkspaces/making_a_mod_a_school/build/libs/modid-1.0.jar, --out-jar, /Users/JaStoddard/MCreatorWorkspaces/making_a_mod_a_school/build/reobfJar/output.jar, --srg-in, /Users/JaStoddard/MCreatorWorkspaces/making_a_mod_a_school/build/createMcpToSrg/output.tsrg, --live'
 Classpath:
  - /Users/JaStoddard/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0-shaded.jar
@@ -120,14 +120,14 @@ Loading mappings... 40%
 Loading mappings... 50%
 0 packages, 6859 classes, 30693 fields, 57911 methods
 Remapping final jar
-Remapping jar...  2%
-Remapping jar... 12%
-Remapping jar... 21%
+Remapping jar...  1%
+Remapping jar... 11%
+Remapping jar... 20%
 Remapping jar... 31%
 Remapping jar... 40%
-Remapping jar... 50%
-Remapping jar... 62%
+Remapping jar... 51%
+Remapping jar... 60%
 Remapping jar... 71%
-Remapping jar... 81%
-Remapping jar... 90%
+Remapping jar... 80%
+Remapping jar... 91%
 Remapping jar... 100%

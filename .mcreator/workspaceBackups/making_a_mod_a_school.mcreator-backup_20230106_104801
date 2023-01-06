@@ -1,0 +1,244 @@
+{
+  "mod_elements": [
+    {
+      "name": "EmeraldSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword"
+    },
+    {
+      "name": "EmeraldSwordRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword_recipe"
+    },
+    {
+      "name": "EnchantedEmeraldSword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_emerald_sword"
+    },
+    {
+      "name": "Topaz",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz"
+    },
+    {
+      "name": "TopazSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TopazSword",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_sword"
+    },
+    {
+      "name": "TopazSwordRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_sword_recipe"
+    },
+    {
+      "name": "Noice",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noice"
+    },
+    {
+      "name": "TrollItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "troll_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Troll",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "troll"
+    },
+    {
+      "name": "TopazPickaze",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_pickaze"
+    },
+    {
+      "name": "TopazPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_pickaxe_recipe"
+    },
+    {
+      "name": "AmythestSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amythest_sword"
+    },
+    {
+      "name": "AmethestPickaxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_pickaxe"
+    },
+    {
+      "name": "AmethestAxe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_axe"
+    },
+    {
+      "name": "AmethestShovel",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_shovel"
+    },
+    {
+      "name": "AmethestHoe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_hoe"
+    },
+    {
+      "name": "AmethestPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_pickaxe_recipe"
+    },
+    {
+      "name": "AmethestAxeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_axe_recipe"
+    },
+    {
+      "name": "AmethestSwordRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_sword_recipe"
+    },
+    {
+      "name": "AmethestShovelRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_shovel_recipe"
+    },
+    {
+      "name": "AmethestHoeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_hoe_recipe"
+    },
+    {
+      "name": "AmethestKunai",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_kunai"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.making_a_mod_a_school.emerald_sword": "Emerald Sword",
+      "item.making_a_mod_a_school.topaz": "Topaz",
+      "item.making_a_mod_a_school.topaz_pickaze": "Topaz Pickaze",
+      "item.making_a_mod_a_school.amethest_axe": "Amethest Axe",
+      "item.making_a_mod_a_school.amethest_kunai": "Amethest Kunai",
+      "item.making_a_mod_a_school.troll": "Troll",
+      "item.making_a_mod_a_school.amythest_sword": "Amethest Sword",
+      "item.making_a_mod_a_school.enchanted_emerald_sword": "Enchanted Emerald Sword",
+      "item.making_a_mod_a_school.topaz_sword": "Topaz Sword",
+      "item.making_a_mod_a_school.amethest_hoe": "Amethest Hoe",
+      "item.making_a_mod_a_school.amethest_shovel": "Amethest Shovel",
+      "item.making_a_mod_a_school.amethest_pickaxe": "Amethest Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "making_a_mod_a_school",
+    "modName": "making a mod a school",
+    "version": "1.0.0",
+    "author": "JaStoddard, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.makingamodaschool",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
