@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "1": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "2": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "making_a_mod_a_school:topaz_axe",
+    "count": 1
+  }
+}

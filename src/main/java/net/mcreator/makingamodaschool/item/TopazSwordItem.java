@@ -7,43 +7,35 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.entity.LivingEntity;
 
-import net.mcreator.makingamodaschool.procedures.TopazSwordLivingEntityIsHitWithToolProcedure;
+import net.mcreator.makingamodaschool.init.MakingAModASchoolModItems;
 
 public class TopazSwordItem extends SwordItem {
 	public TopazSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 286;
 			}
 
 			public float getSpeed() {
-				return 4f;
-			}
-
-			public float getAttackDamageBonus() {
 				return 6f;
 			}
 
-			public int getLevel() {
-				return 1;
+			public float getAttackDamageBonus() {
+				return 0f;
 			}
 
-			public int getEnchantmentValue() {
+			public int getLevel() {
 				return 2;
 			}
 
-			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+			public int getEnchantmentValue() {
+				return 15;
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
-	}
 
-	@Override
-	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
-		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		TopazSwordLivingEntityIsHitWithToolProcedure.execute(entity);
-		return retval;
+			public Ingredient getRepairIngredient() {
+				return Ingredient.of(new ItemStack(MakingAModASchoolModItems.TOPAZ.get()));
+			}
+		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}
 }

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "2": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "3": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "4": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "5": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "6": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "7": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "8": {
+      "item": "making_a_mod_a_school:topaz"
+    }
+  },
+  "result": {
+    "item": "making_a_mod_a_school:topaz_armor_chestplate",
+    "count": 1
+  }
+}

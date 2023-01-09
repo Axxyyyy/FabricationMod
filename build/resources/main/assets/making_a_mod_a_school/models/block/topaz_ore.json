@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "making_a_mod_a_school:blocks/topaz_ore",
+    "up": "making_a_mod_a_school:blocks/topaz_ore",
+    "north": "making_a_mod_a_school:blocks/topaz_ore",
+    "east": "making_a_mod_a_school:blocks/topaz_ore",
+    "south": "making_a_mod_a_school:blocks/topaz_ore",
+    "west": "making_a_mod_a_school:blocks/topaz_ore",
+    "particle": "making_a_mod_a_school:blocks/topaz_ore"
+  },
+  "render_type": "solid"
+}

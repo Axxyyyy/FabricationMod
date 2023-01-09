@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "1": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "2": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "3": {
+      "item": "making_a_mod_a_school:topaz"
+    },
+    "5": {
+      "item": "making_a_mod_a_school:topaz"
+    }
+  },
+  "result": {
+    "item": "making_a_mod_a_school:topaz_armor_helmet",
+    "count": 1
+  }
+}

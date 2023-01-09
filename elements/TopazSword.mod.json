@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "sprite_1",
+    "texture": "topaz_sword",
     "customModelName": "Normal",
     "name": "Topaz Sword",
     "specialInfo": [],
@@ -11,20 +11,21 @@
       "value": "COMBAT"
     },
     "toolType": "Sword",
-    "harvestLevel": 1,
-    "efficiency": 4.0,
+    "harvestLevel": 2,
+    "efficiency": 6.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 8.0,
-    "usageCount": 100,
+    "enchantability": 15,
+    "damageVsEntity": 2.0,
+    "usageCount": 286,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
-    "immuneToFire": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Topaz"
+      }
+    ],
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "TopazSwordLivingEntityIsHitWithTool"
-    }
+    "damageOnCrafting": false
   }
 }

@@ -29,7 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.makingamodaschool.init.MakingAModASchoolModMenus;
 import net.mcreator.makingamodaschool.init.MakingAModASchoolModItems;
+import net.mcreator.makingamodaschool.init.MakingAModASchoolModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -48,7 +50,10 @@ public class MakingAModASchoolMod {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		MakingAModASchoolModBlocks.REGISTRY.register(bus);
 		MakingAModASchoolModItems.REGISTRY.register(bus);
+
+		MakingAModASchoolModMenus.REGISTRY.register(bus);
 
 	}
 

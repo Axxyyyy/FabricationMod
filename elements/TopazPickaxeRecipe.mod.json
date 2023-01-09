@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TopazPickaze"
+      "value": "CUSTOM:TopazPickaxe"
     },
     "name": "topaz_pickaxe_recipe",
     "namespace": "mod"
