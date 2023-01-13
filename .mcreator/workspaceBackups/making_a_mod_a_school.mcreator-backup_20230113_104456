@@ -1,0 +1,519 @@
+{
+  "mod_elements": [
+    {
+      "name": "EmeraldSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword"
+    },
+    {
+      "name": "EmeraldSwordRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword_recipe"
+    },
+    {
+      "name": "EnchantedEmeraldSword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_emerald_sword"
+    },
+    {
+      "name": "TopazSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TopazSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_sword"
+    },
+    {
+      "name": "TopazSwordRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_sword_recipe"
+    },
+    {
+      "name": "Noice",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noice"
+    },
+    {
+      "name": "TrollItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "troll_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Troll",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "troll"
+    },
+    {
+      "name": "TopazPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_pickaxe_recipe"
+    },
+    {
+      "name": "AmythestSword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amythest_sword"
+    },
+    {
+      "name": "AmethestPickaxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_pickaxe"
+    },
+    {
+      "name": "AmethestAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_axe"
+    },
+    {
+      "name": "AmethestShovel",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_shovel"
+    },
+    {
+      "name": "AmethestHoe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_hoe"
+    },
+    {
+      "name": "AmethestPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_pickaxe_recipe"
+    },
+    {
+      "name": "AmethestAxeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_axe_recipe"
+    },
+    {
+      "name": "AmethestSwordRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_sword_recipe"
+    },
+    {
+      "name": "AmethestShovelRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_shovel_recipe"
+    },
+    {
+      "name": "AmethestHoeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_hoe_recipe"
+    },
+    {
+      "name": "AmethestKatana",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_katana"
+    },
+    {
+      "name": "AmethestKnife",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethest_knife"
+    },
+    {
+      "name": "Topaz",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz"
+    },
+    {
+      "name": "TopazBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_block"
+    },
+    {
+      "name": "TopazOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_ore_block_recipe"
+    },
+    {
+      "name": "TopazBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_block_ore_recipe"
+    },
+    {
+      "name": "TopazOreSmelting",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_ore_smelting"
+    },
+    {
+      "name": "TopazPickaxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_pickaxe"
+    },
+    {
+      "name": "TopazAxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_axe"
+    },
+    {
+      "name": "TopazShovel",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_shovel"
+    },
+    {
+      "name": "TopazHoe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_hoe"
+    },
+    {
+      "name": "TopazAxeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_axe_recipe"
+    },
+    {
+      "name": "TopazShovelRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_shovel_recipe"
+    },
+    {
+      "name": "TopazHoeRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_hoe_recipe"
+    },
+    {
+      "name": "TopazArmor",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "TopazArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_armor_helmet_recipe"
+    },
+    {
+      "name": "TopazArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_armor_body_recipe"
+    },
+    {
+      "name": "TopazArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_armor_leggings_recipe"
+    },
+    {
+      "name": "TopazArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_armor_boots_recipe"
+    },
+    {
+      "name": "TopazOre",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_ore"
+    },
+    {
+      "name": "ForgeGui",
+      "type": "gui",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_gui"
+    },
+    {
+      "name": "NetherBlade",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_blade"
+    },
+    {
+      "name": "NetherBladeRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_blade_recipe"
+    },
+    {
+      "name": "NetherHandle",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_handle"
+    },
+    {
+      "name": "NetherHandleRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_handle_recipe"
+    },
+    {
+      "name": "NetherSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_sword"
+    },
+    {
+      "name": "NetherSwordRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_sword_recipe"
+    },
+    {
+      "name": "AmethystArmor",
+      "type": "armor",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AmethystArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor_helmet_recipe"
+    },
+    {
+      "name": "AmethystArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor_body_recipe"
+    },
+    {
+      "name": "AmethystArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor_leggings_recipe"
+    },
+    {
+      "name": "AmethystArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor_boots_recipe"
+    },
+    {
+      "name": "AmethystKunai",
+      "type": "rangeditem",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_kunai"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.making_a_mod_a_school.emerald_sword": "Emerald Sword",
+      "item.making_a_mod_a_school.topaz_pickaxe": "Topaz Pickaxe",
+      "item.making_a_mod_a_school.nether_handle": "Nether Handle",
+      "item.making_a_mod_a_school.nether_sword": "Nether Sword",
+      "block.making_a_mod_a_school.topaz_block": "Block of Topaz",
+      "item.making_a_mod_a_school.troll": "Troll",
+      "item.making_a_mod_a_school.amethyst_armor_chestplate": "Amethyst Chestplate",
+      "item.making_a_mod_a_school.topaz_armor_chestplate": "Topaz Chestplate",
+      "item.making_a_mod_a_school.amethyst_armor_helmet": "Amethyst Helmet",
+      "item.making_a_mod_a_school.topaz_sword": "Topaz Sword",
+      "item.making_a_mod_a_school.amethyst_armor_boots": "Amethyst Boots",
+      "item.making_a_mod_a_school.topaz_armor_boots": "Topaz Boots",
+      "item.making_a_mod_a_school.nether_blade": "Nether Blade",
+      "item.making_a_mod_a_school.amethest_pickaxe": "Amethest Pickaxe",
+      "item.making_a_mod_a_school.amethyst_armor_leggings": "Amethyst Leggings",
+      "item.making_a_mod_a_school.topaz": "Topaz",
+      "item.making_a_mod_a_school.amethyst_kunai": "Amethyst Kunai",
+      "item.making_a_mod_a_school.amethest_knife": "Amethest Knife",
+      "item.making_a_mod_a_school.amethest_katana": "Amethest Katana",
+      "item.making_a_mod_a_school.amethest_axe": "Amethest Axe",
+      "item.making_a_mod_a_school.topaz_axe": "Topaz Axe",
+      "item.making_a_mod_a_school.topaz_shovel": "Topaz Shovel",
+      "block.making_a_mod_a_school.topaz_ore": "Topaz Ore",
+      "item.making_a_mod_a_school.amythest_sword": "Amethest Sword",
+      "item.making_a_mod_a_school.topaz_armor_leggings": "Topaz Leggings",
+      "item.making_a_mod_a_school.enchanted_emerald_sword": "Enchanted Emerald Sword",
+      "item.making_a_mod_a_school.amethest_hoe": "Amethest Hoe",
+      "item.making_a_mod_a_school.topaz_armor_helmet": "Topaz Helmet",
+      "item.making_a_mod_a_school.amethest_shovel": "Amethest Shovel",
+      "item.making_a_mod_a_school.topaz_hoe": "Topaz Hoe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Amethyst",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "making_a_mod_a_school",
+    "modName": "making a mod a school",
+    "version": "1.0.0",
+    "author": "JaStoddard, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.makingamodaschool",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

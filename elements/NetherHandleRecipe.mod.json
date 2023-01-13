@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NetherHandle"
+    },
+    "name": "nether_handle_recipe",
+    "namespace": "mod"
+  }
+}

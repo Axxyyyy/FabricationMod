@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "topaz_sword",
+    "texture": "sprite_1",
     "customModelName": "Normal",
     "name": "Topaz Sword",
     "specialInfo": [],

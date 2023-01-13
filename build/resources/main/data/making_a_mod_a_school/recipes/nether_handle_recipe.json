@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blaze_rod"
+    },
+    "1": {
+      "item": "minecraft:blaze_rod"
+    },
+    "2": {
+      "item": "minecraft:blaze_rod"
+    },
+    "4": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "making_a_mod_a_school:nether_handle",
+    "count": 1
+  }
+}

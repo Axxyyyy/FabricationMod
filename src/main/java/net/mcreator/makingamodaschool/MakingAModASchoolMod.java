@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.makingamodaschool.init.MakingAModASchoolModMenus;
 import net.mcreator.makingamodaschool.init.MakingAModASchoolModItems;
+import net.mcreator.makingamodaschool.init.MakingAModASchoolModEntities;
 import net.mcreator.makingamodaschool.init.MakingAModASchoolModBlocks;
 
 import java.util.function.Supplier;
@@ -52,6 +53,7 @@ public class MakingAModASchoolMod {
 
 		MakingAModASchoolModBlocks.REGISTRY.register(bus);
 		MakingAModASchoolModItems.REGISTRY.register(bus);
+		MakingAModASchoolModEntities.REGISTRY.register(bus);
 
 		MakingAModASchoolModMenus.REGISTRY.register(bus);
 
